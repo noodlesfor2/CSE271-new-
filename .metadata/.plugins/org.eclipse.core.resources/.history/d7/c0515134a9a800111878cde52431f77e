@@ -1,0 +1,108 @@
+// Jonah Moore
+//CSE 271 - B
+// 9/4/2026
+// Project 1, currently working through phase 1 of methods, overall project will use file reading skills.
+
+import java.util.Scanner;
+
+public class ScriptReviewTool {
+    public static String getFileName(Scanner kb) {
+        // Method used to get a file name from user input.
+        System.out.print("Enter input file name: ");
+
+        // Collecting the input file name
+        String fileName = kb.nextLine();
+
+        return fileName;
+    }
+
+    public static int getUserChoice(Scanner kb) {
+        // Method used to display a menu of choices the user can make,
+        // takes in input only, actual execution of the choice will be done in main
+        // method.
+
+        // Printing out a menu of options
+        System.out.print("Output options:\n1. Raw word list\n2. Palindrome list\n3. High value word list\n"
+                + "4. Unique word list\nEnter choice: ");
+
+        // Collecting the user's choice
+        int userChoice = kb.nextInt();
+
+        return userChoice;
+    }
+
+    public static String clean(String word) {
+        // Method used to take in input string, and output a new string that has been
+        // stripped of
+        // all non-letters and white space, and is now in upper case.
+
+        // Setting up an output word
+        String oWord = "";
+
+        // Looping through each character of the word, adding to output word if they are
+        // a letter.
+        for (int i = 0; i < word.length(); i++) {
+
+            if (Character.isLetter(word.charAt(i))) {
+
+                oWord += word.charAt(i);
+            }
+
+        }
+
+        // Setting our new word to upper case
+        oWord = oWord.toUpperCase();
+
+        return oWord;
+    }
+
+    public static boolean isPalindrome(String word) {
+        // A method used to check if an input string is a palindrome (meaning that
+        // it's a word that reads the same forwards and backwards).
+        
+        // Cleaning given word
+        word = clean(word);
+        
+        // Initializing necessary variables
+        String wordCheck = "";
+        boolean boolReturn = false;
+        
+        // If the word length is 1 from the start, the method will immediately return false.
+        if (word.length() == 1) {
+
+            return boolReturn;
+        }
+        // Creating a reverse version of our given word
+        for (int i = 1; i < word.length(); i++) {
+            
+            wordCheck += word.charAt(word.length() - i);
+        }
+        
+        // Finally, comparing our reverse word with given word, to determine if it is a palindrome
+        if (wordCheck.equals(word)) {
+            
+            boolReturn = true;
+        }
+        return boolReturn;
+    }
+
+    public static void main(String[] args) {
+
+        // Initializing the Scanner for user input
+        Scanner kb = new Scanner(System.in);
+
+        // Storing our given file name into a variable in the main method
+        String fileName = getFileName(kb);
+
+        // Storing our user's choice into a variable into the main method.
+        int userChoice = getUserChoice(kb);
+
+        String tongueTwister = "A man, a plan, a canal. Panama";
+
+        String palindrome = "racecar";
+
+        // System.out.println("Is tongueTwister a palindrome? " + isPalindrome(tongueTwister));
+
+        System.out.println("Is palindrome a palindrome? " + isPalindrome(palindrome));
+    }
+}

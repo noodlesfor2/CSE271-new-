@@ -1,0 +1,36 @@
+// Jonah Moore
+//CSE 271 - B
+// 9/4/2026
+// Project 1, currently working through phase 1 of methods, overall project will use file reading skills.
+
+import java.util.Scanner;
+
+public class ScriptReviewTool {
+    public static String getFileName(Scanner kb) {
+        // Method used to get a file name from user input.
+        System.out.print("Enter input file name: ");
+
+        String fileName = kb.nextLine();
+
+        return fileName;
+    }
+
+    public static int getUserChoice(Scanner kb) {
+        // Method used to display a menu of choices the user can make,
+        // takes in input only, actual execution of the choice will be done in main method.
+        
+        System.out.print("Output options:\n1. Raw word list\n2. Palindrome list\n3. High value word list\n"
+                + "4. Unique word list\nEnter choice: ");
+        
+        int userChoice = getUserChoice(kb);
+    }
+
+    public static void main(String[] args) {
+
+        //
+        Scanner kb = new Scanner(System.in);
+
+        String fileName = getFileName(kb);
+
+    }
+}

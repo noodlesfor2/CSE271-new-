@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class userInput {
+    
+    public static void main(String[] args) {
+        
+        Scanner kb = new Scanner (System.in);
+        
+        System.out.print("Enter your name: ");
+        
+        String username = kb.nextLine();
+        
+        System.out.println("Hi, your name is " + username);
+    }
+}
