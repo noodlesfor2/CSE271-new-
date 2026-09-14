@@ -87,3 +87,42 @@
 2026-09-06 03:44:09.211: [INFO] BookmarksLoadDropped droppedNodes=0
 2026-09-06 03:44:09.211: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
 2026-09-06 03:44:18.798: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 01:01:58.371: [INFO] CurrentProfilePath: C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 01:01:58.371: [INFO] Profiles total count: 1
+2026-09-14 01:01:58.371: [INFO] Profile: name=Profile 1 path=C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-04T20:33:44.642Z
+2026-09-14 01:01:58.371: [INFO] LastUsedProfileDir: C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 01:01:58.371: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-04T20:33:44.642Z
+2026-09-14 01:01:58.371: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 01:01:58.371: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 01:01:58.371: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 01:01:58.371: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 01:02:08.361: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 01:08:55.622: [INFO] CurrentProfilePath: C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 01:08:55.622: [INFO] Profiles total count: 1
+2026-09-14 01:08:55.622: [INFO] Profile: name=Profile 1 path=C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-14T01:02:06.251Z
+2026-09-14 01:08:55.622: [INFO] LastUsedProfileDir: C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 01:08:55.622: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-14T01:02:06.251Z
+2026-09-14 01:08:55.622: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 01:08:55.622: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 01:08:55.622: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 01:08:55.622: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 01:08:56.016: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 01:09:57.743: [INFO] CurrentProfilePath: C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 01:09:57.743: [INFO] Profiles total count: 1
+2026-09-14 01:09:57.743: [INFO] Profile: name=Profile 1 path=C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-14T01:02:06.251Z
+2026-09-14 01:09:57.743: [INFO] LastUsedProfileDir: C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 01:09:57.743: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-14T01:02:06.251Z
+2026-09-14 01:09:57.743: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 01:09:57.743: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 01:09:57.743: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 01:09:57.743: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 01:09:57.912: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-09-14 01:12:34.166: [INFO] CurrentProfilePath: C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 01:12:34.166: [INFO] Profiles total count: 1
+2026-09-14 01:12:34.166: [INFO] Profile: name=Profile 1 path=C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-14T01:02:06.251Z
+2026-09-14 01:12:34.166: [INFO] LastUsedProfileDir: C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-09-14 01:12:34.166: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\Jonah\CSE271(desktop)\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-09-14T01:02:06.251Z
+2026-09-14 01:12:34.166: [INFO] OnDoneLoading sync enabled: 0
+2026-09-14 01:12:34.166: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-09-14 01:12:34.166: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-09-14 01:12:34.166: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
